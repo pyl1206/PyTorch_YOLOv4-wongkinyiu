@@ -216,3 +216,4 @@ python test.py --img 640 --conf 0.001 --batch 8 --device 0 --data coco.yaml --cf
 * [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
 * [https://github.com/ultralytics/yolov3](https://github.com/ultralytics/yolov3)
 * [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5)
+这套代码配合https://github.com/wang-xinyu/tensorrtx项目，从训练到部署均有，因此优先使用这套代码去训练，目前唯一的不足是当数据集比较大的时候，如何去分布式训练。
